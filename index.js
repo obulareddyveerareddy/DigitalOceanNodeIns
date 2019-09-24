@@ -23,7 +23,7 @@ app.get("/api", function(req, res) {
 });
 
 // Specify port
-const port = process.env.PORT || 5000;
+const port = process.env.PORT || 80;
 
 // Start the app
 app.listen(port, () => {
